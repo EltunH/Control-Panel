@@ -1,0 +1,34 @@
+#main{
+    width: 100%;
+    min-height:600px;
+    position: relative;
+}
+
+#chg{
+    position: absolute;
+}
+
+input , select{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#scWidth, #scHeight, #scBradius, #scMargin, #scPositionTop, #scPositionLeft{
+    width: 60px;
+    height: 30px;
+}
+
+.control{
+    width: 100%;
+    min-height:600px;
+    background-color: rgba(0, 255, 255, 0.562);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.CP{
+    font-size: 30px;
+    color: red;
+}
